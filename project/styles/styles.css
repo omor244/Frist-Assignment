@@ -1,0 +1,40 @@
+
+
+
+
+
+
+body{
+    background-color: #4E47FF03;
+}
+
+
+/* sheard style */
+
+.display-flex {
+    display: flex;
+}
+
+/* sheard style */
+
+/* navber start */
+.navber{
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 150px;
+}
+.logo {
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+    
+}
+.nav-btn{
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+/* navber end */
+
+/* start-banner */
