@@ -25,10 +25,19 @@ body{
     display: flex;
 }
 .hover:hover{
-    background-color: #4d47ff96;
+    background-color: #0056b3;
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.733);
-    transition: 0.3s;
+    color: white;
+    transition: 0.6;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.hover-1:hover{
+    background-color: #1C86EE;
+    cursor: pointer;
+    color: white;
+    transition: 0.6;
+    box-shadow: 5px 4px 20px #1E90FF;
 }
 
 /* sheard style */
@@ -275,13 +284,14 @@ input[type="text"]{
 }
 .touch-btn{
     padding: 20px 32px;
-    width: 450px;
+    width: 512px;
     font-size: 20px;
     border-radius: 10px;
     margin-top: 10px;
     background-color: #4E47FF;
     text-align: center;
     color: #FFFFFF;
+    border: none;
 }
 /* end-touch-section */
 /* start-footer */
