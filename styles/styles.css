@@ -284,6 +284,41 @@ input[type="text"]{
     color: #FFFFFF;
 }
 /* end-touch-section */
+/* start-footer */
+.footer-container {
+    background-color: #4E47FF1A;
+    height: 450px;
+    text-align: center;
+}
+.footer-logo{
+ font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+.footer-logo{
+    padding-top: 140px;
+
+}
+.footer-discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8987A1;
+    line-height: 150%;
+}
+.footer-links{
+    justify-content: center;
+    margin-top: 30px; 
+    gap: 50px;
+    
+}
+.footer-links > a{
+    text-decoration: none;
+     font-weight: 400;
+    font-size: 16px;
+    color: #8987A1;
+    line-height: 150%;
+}
+/* end-footer */
 
 
 
